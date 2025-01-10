@@ -1,6 +1,6 @@
 ## view
 to view this website go here:
-https://webbrowser11.github.io/skyOSweb/
+https://Alter-Net-codes.github.io/skyOSweb/
 ## learn more about skyOS
 learn more on this webpage.
 (even how to contribute!)
