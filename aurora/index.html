@@ -2,10 +2,20 @@
 <html lang="en">
 <head>
     <title>SkyOS Aurora</title>
+    <style>
+        @keyframes blink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0; }
+        }
+        
+        .blink {
+          animation: blink 1s infinite;
+        }
+    </style>
 </head>
 <body>
     <h1>SkyOS Aurora</h1>
-    <blink>The new and improved!</blink>
+    <p class="blink">The new and improved!</p>
     <p>SkyOS Aurora is The continuation of the Open-Source SkyOS project.</p>
     <p><a href="https://github.com/Alter-Net-codes/SkyOS-Aurora">Explore SkyOS Aurora on GitHub.</a></p>
     <p><a href="releases.html">Look at SkyOS aurora releases.</a></p>
