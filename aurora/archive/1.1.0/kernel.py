@@ -217,7 +217,7 @@ while True:
                     currentfilenum += 1
                     file_url = file_url.strip()
                     filename = file_url.split('/')[-1]
-                    filepath = listfilepath[currentfilenum]
+                    filepath = filepathsdownload[currentfilenum]
                     filepath = os.path.join(f'{root_path}/{filepath}/', filename)
                     urllib.request.urlretrieve(file_url, filepath)
                 with open(signed_in_file, "w") as session_file:
