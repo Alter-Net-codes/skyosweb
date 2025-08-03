@@ -209,10 +209,10 @@ while True:
                 print("Updating SkyOS Aurora...")
                 # Download the latest version
                 listurlget = requests.get(f'https://alter-net-codes.github.io/skyosweb/aurora/archive/{latest_version}/files.txt')
-                file_urls = response.text.strip().splitlines()
+                file_urls = listurlget.text.strip().splitlines()
                 listfilepath = requests.get(f'https://alter-net-codes.github.io/skyosweb/aurora/archive/{latest_version}/filepath.txt')
-                filepathsdownload = response.text.strip().splitlines()
-                currentfilenum = 0
+                filepathsdownload = listfilepath.text.strip().splitlines()
+                currentfilenum = -1
                 for file_url in file_urls:
                     currentfilenum += 1
                     file_url = file_url.strip()
