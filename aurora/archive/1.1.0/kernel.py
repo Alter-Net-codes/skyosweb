@@ -223,8 +223,9 @@ while True:
                 with open(signed_in_file, "w") as session_file:
                     session_file.write("0")
                     print("Exiting the OS...")
-                    time.sleep(2)
-                    os._exit(0)
+                    python = sys.executable
+                    subprocess.Popen([python] + sys.argv)
+                    sys.exit()
             else:
                 print("Update skipped.")
 
