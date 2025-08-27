@@ -231,8 +231,8 @@ while True:
                 with open(signed_in_file, "w") as session_file:
                     session_file.write("0")
                     print("Exiting the OS...")
-                    python = sys.executable
-                    subprocess.Popen([python] + sys.argv)
+                    print("Please restart manually to finish the update.")
+                    time.sleep(2)
                     sys.exit()
         else:
             print("You are up to date!")
