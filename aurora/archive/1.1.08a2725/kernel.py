@@ -19,7 +19,7 @@ import urllib.request
 # I might make a guide for how to make a SkyOS Aurora 1.2+ app, but for now, you can just follow the current sturcture, then add mutltiple files in the folder you run it from.
 # Installers and stuff will soon be suported.
 
-valid_version = "1.1.08a2625"
+valid_version = "1.1.08a2725"
 
 colors = {
     "sky_blue": "\033[38;5;39m",
