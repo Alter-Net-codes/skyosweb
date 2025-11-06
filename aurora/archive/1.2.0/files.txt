@@ -1,0 +1,3 @@
+https://alter-net-codes.github.io/skyosweb/aurora/archive/1.2.0/kernel.py
+https://alter-net-codes.github.io/skyosweb/aurora/archive/1.2.0/skypkg.py
+
