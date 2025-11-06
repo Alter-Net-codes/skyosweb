@@ -1,0 +1,5 @@
+c:\Users\terps\Downloads\1.2\apps\examplelauncher.py
+c:\Users\terps\Downloads\1.2\apps\helloworldapp.py
+c:\Users\terps\Downloads\1.2\apps\multifileapp
+c:\Users\terps\Downloads\1.2\apps\simpletextapp.py
+c:\Users\terps\Downloads\1.2\apps\texteditor.py
